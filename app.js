@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
         hideModal();
     });
 
-    // Handle update & delete with event delegation
+    //Update & delete
     noteGrid.addEventListener('click', (e) => {
         const index = e.target.dataset.index;
         if (e.target.classList.contains('delete')) {
